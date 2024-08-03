@@ -3,7 +3,7 @@ name: Sync Markdown Files
 on:
   push:
     paths:
-      - '/Release Notes'
+      - './Release Notes'
 
 jobs:
   sync:
