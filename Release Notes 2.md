@@ -1,1 +1,1 @@
-bhLatest Test
+Latest Test
