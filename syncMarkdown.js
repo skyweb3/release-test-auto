@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Specify the folder containing the markdown files
-const folderPath = './Release Notes/Release Notes 4.md';
+const folderPath = './Release Notes';
 
 // Read all files in the folder
 fs.readdir(folderPath, (err, files) => {
