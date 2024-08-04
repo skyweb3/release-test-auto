@@ -17,7 +17,7 @@ fs.readdir(folderPath, (err, files) => {
   }
 
   // Read the content of the first markdown file
-  const sourceFilePath = './Release Notes 4.md';
+  const sourceFilePath = './Release Notes/Release Notes 4.md';
   fs.readFile(sourceFilePath, 'utf8', (err, data) => {
     if (err) throw err;
 
